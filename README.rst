@@ -20,7 +20,7 @@ $ ./bin/strip_versions PATH-TO-OLD-ZODB-FILE PATH-TO-NEW-ZODB-FILE
 Authors
 -------
 
-Johannes Raggam, based on Chris Withers' version:
+Chris Withers, Johannes Raggam. Based on:
 https://mail.zope.org/pipermail/zodb-dev/2009-August/012690.html
 
 Also see
