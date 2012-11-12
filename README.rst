@@ -3,8 +3,9 @@ ZODB strip_versions
 
 Buildout for stripping out version data from ZODB files.
 
-Since ZODB version 3.9, no version data is kept in ZODB storages and zeoserver
-or Zope won't start, failing with
+Until ZODB version 3.8, version data was kept in ZODB storages. Since ZODB
+version 3.9, version data support was removed. The Zeo server and Zope won't
+start with old storages, failing with
 
     ValueError: Non-zero version length. Versions aren't supported.
 
